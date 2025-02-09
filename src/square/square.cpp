@@ -1,4 +1,5 @@
 
+// public header in include directory is referenced from top level
 #include <geometry/square/square.h>
 #include "info.h"
 
