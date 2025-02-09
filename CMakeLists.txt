@@ -20,5 +20,5 @@ add_executable(app)
 target_sources(app PRIVATE "example/app.cpp")
 target_link_libraries(app PRIVATE geo)
 
-install(TARGETS geo FILE_SET HEADERS)
+install(TARGETS geo FILE_SET myPublicHeaders)
 
