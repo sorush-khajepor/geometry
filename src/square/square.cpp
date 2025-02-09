@@ -1,5 +1,5 @@
 
-#include "square.h"
+#include <geometry/square/square.h>
 #include "info.h"
 
 std::string Square::GetName() {
